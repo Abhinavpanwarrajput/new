@@ -82,7 +82,8 @@
 				message =>{
 					//console.log (message);
 					if(message=='OK'){
-						let aMsg=document.getElementById("afterMsg").innerText="Thanks! For submitting";
+						document.getElementById("afterMsg").style.display="block";
+						document.getElementById("afterMsg").innerText="Thanks! For submitting";
 						setInterval(()=>{
 							location.reload();
 						},3000)
